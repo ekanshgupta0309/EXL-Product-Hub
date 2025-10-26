@@ -1,7 +1,7 @@
 'use client';
-import productsData from '@/data/products';
+import productsData from '../data/products';
 import { useState, useEffect } from 'react';
-import ProductCard from '@/components/ProductCard';
+import ProductCard from '../components/ProductCard';
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -22,3 +22,4 @@ export default function Home() {
     </div>
   );
 }
+
